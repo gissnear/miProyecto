@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+.boton{
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+    border-radius: 100px;
+    padding: 10px 15px 10px 15px;
+}
+.efecto:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+#hola{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.saludo{
+    font-size: 30px;
+    font-weight: 800;
+}
+img{
+    width: 20vw;
+}
+#conocimiento{
+    text-align: center;
+    height: 100vh;
+    background-color: lightgray;
+    padding-top: 100px;
+}
+.container_conocimiento{
+    display: flex;
+    justify-content: center;
+}
+.conocimientos{
+    background-color: white;
+    color: black;
+    border: 1px solid lightslategrey;
+    border-radius: 8px;
+    width: 50vw;
+    height: 45vh;
+}
+.iconos{
+    width: 15vw;
+    height: 20vh;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.cinta{
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    padding-bottom: 20px;
+    padding-right: 85px;
+    padding-left: 85px;
+    margin-top: 0;
+}
+#proyecto{
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.proyectos{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 45px;
+}
+.contacto{
+    background-color: white;
+    height: 100vh;
+}
+.contacto_interno{
+    background-color: white;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    border: 1px solid lightslategrey;
+    border-radius: 8px;
+}
+.contactame{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 50vw;
+}
+.mini_iconos{
+   width: 30px;
+   height: 30px; 
+}
+footer{
+    background-color: blueviolet;
+    text-align: center;
+    height: 40vh;
+    color: white;
+}
+.fin{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    padding-top: 80px;
+    margin-left: 25px;
+}
+.mini_iconos2{
+   width: 30px;
+   height: 30px; 
+   border-radius: 50px;
+}
+
